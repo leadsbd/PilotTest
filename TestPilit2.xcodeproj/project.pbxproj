@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A352BA94174CE42E0083EA33 /* Ruma.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BA93174CE42E0083EA33 /* Ruma.m */; };
 		BFD6C8E8174CDC850009AD7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8E7174CDC850009AD7D /* UIKit.framework */; };
 		BFD6C8EA174CDC850009AD7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8E9174CDC850009AD7D /* Foundation.framework */; };
 		BFD6C8EC174CDC850009AD7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8EB174CDC850009AD7D /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A352BA92174CE42E0083EA33 /* Ruma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ruma.h; sourceTree = "<group>"; };
+		A352BA93174CE42E0083EA33 /* Ruma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ruma.m; sourceTree = "<group>"; };
 		BFD6C8E4174CDC850009AD7D /* TestPilit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPilit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD6C8E7174CDC850009AD7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFD6C8E9174CDC850009AD7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,8 @@
 		BFD6C8DB174CDC850009AD7D = {
 			isa = PBXGroup;
 			children = (
+				A352BA92174CE42E0083EA33 /* Ruma.h */,
+				A352BA93174CE42E0083EA33 /* Ruma.m */,
 				BFD6C8ED174CDC850009AD7D /* TestPilit2 */,
 				BFD6C911174CDC850009AD7D /* TestPilit2Tests */,
 				BFD6C8E6174CDC850009AD7D /* Frameworks */,
@@ -273,6 +278,7 @@
 				BFD6C8F4174CDC850009AD7D /* main.m in Sources */,
 				BFD6C8F8174CDC850009AD7D /* AppDelegate.m in Sources */,
 				BFD6C904174CDC850009AD7D /* ViewController.m in Sources */,
+				A352BA94174CE42E0083EA33 /* Ruma.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				BFD6C91E174CDC850009AD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFD6C91F174CDC850009AD7D /* Build configuration list for PBXNativeTarget "TestPilit2Tests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				BFD6C921174CDC850009AD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
