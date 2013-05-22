@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE14552C174CDEE500924767 /* Farzana.m in Sources */ = {isa = PBXBuildFile; fileRef = AE14552B174CDEE500924767 /* Farzana.m */; };
 		BFD6C8E8174CDC850009AD7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8E7174CDC850009AD7D /* UIKit.framework */; };
 		BFD6C8EA174CDC850009AD7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8E9174CDC850009AD7D /* Foundation.framework */; };
 		BFD6C8EC174CDC850009AD7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6C8EB174CDC850009AD7D /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE14552A174CDEE500924767 /* Farzana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farzana.h; sourceTree = "<group>"; };
+		AE14552B174CDEE500924767 /* Farzana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farzana.m; sourceTree = "<group>"; };
 		BFD6C8E4174CDC850009AD7D /* TestPilit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPilit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD6C8E7174CDC850009AD7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFD6C8E9174CDC850009AD7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				BFD6C902174CDC850009AD7D /* ViewController.h */,
 				BFD6C903174CDC850009AD7D /* ViewController.m */,
 				BFD6C8EE174CDC850009AD7D /* Supporting Files */,
+				AE14552A174CDEE500924767 /* Farzana.h */,
+				AE14552B174CDEE500924767 /* Farzana.m */,
 			);
 			path = TestPilit2;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				BFD6C8F4174CDC850009AD7D /* main.m in Sources */,
 				BFD6C8F8174CDC850009AD7D /* AppDelegate.m in Sources */,
 				BFD6C904174CDC850009AD7D /* ViewController.m in Sources */,
+				AE14552C174CDEE500924767 /* Farzana.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				BFD6C91E174CDC850009AD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFD6C91F174CDC850009AD7D /* Build configuration list for PBXNativeTarget "TestPilit2Tests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				BFD6C921174CDC850009AD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
